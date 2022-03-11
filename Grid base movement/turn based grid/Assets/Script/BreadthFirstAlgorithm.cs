@@ -19,7 +19,7 @@ public class BreadthFirstAlgorithm : MonoBehaviour
     // Start is called before the first frame update
     
 
-    public List<Vector3Int> GetPath(Vector3Int startPos, Vector3Int goalPos)
+    public List<Vector3> GetPath(Vector3Int startPos, Vector3Int goalPos)
     {
         queue = new Queue<Vector3Int>();
         visited = new Dictionary<Vector3Int, Vector3Int>();
@@ -42,11 +42,11 @@ public class BreadthFirstAlgorithm : MonoBehaviour
             }
         }
 
-        List<Vector3Int> backtracedPath = new List<Vector3Int>();
+        List<Vector3> backtracedPath = new List<Vector3>();
         Vector3Int currentPos = goalPos;
         while(currentPos != startPos)
         {
-            backtracedPath.Add(currentPos);
+            backtracedPath.Add(currentPos + mapManager.tilemap.tileAnchor);
             currentPos = visited[currentPos];
         }
 
