@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a676d093f9273c541b32a99d3a32ded7, type: 3}
+  m_Name: Wall tiles
+  m_EditorClassIdentifier: 
+  walkable: 0
+  tiles:
+  - {fileID: 11400000, guid: 6d5e596a82606524ba5631414c09c882, type: 2}
+  - {fileID: 11400000, guid: cc151b607f1bc7f4fb6987a3dd14cfcf, type: 2}
+  - {fileID: 11400000, guid: 5d0f193acf6852642a44dd2854bcdf89, type: 2}
+  - {fileID: 11400000, guid: e7c5187e91a960844b99305115912718, type: 2}
+  - {fileID: 11400000, guid: 99fe96c815d0f8147a3b7698f4814b56, type: 2}
+  - {fileID: 11400000, guid: 15bb4046ba9b96442ae8fb92716cc43c, type: 2}
+  - {fileID: 11400000, guid: 6cf52161ccf220e4b8afc056ee79c382, type: 2}
+  - {fileID: 11400000, guid: f34cdd9c9e5bcdb4193828de8920b3e5, type: 2}
+  - {fileID: 11400000, guid: 3dcdc1b008bf0da41bd80b65cdbf2d50, type: 2}
+  - {fileID: 11400000, guid: 0f33dbd957cd3d34d940dcb29261b6f4, type: 2}
+  - {fileID: 11400000, guid: d05e8628707641a4eb0b9ffb0a0b752e, type: 2}
+  - {fileID: 11400000, guid: 212f0c1b93bcf8244a93069ba2a1e469, type: 2}
+  - {fileID: 11400000, guid: 70d4e47f558d7664a95ada3c7d875919, type: 2}

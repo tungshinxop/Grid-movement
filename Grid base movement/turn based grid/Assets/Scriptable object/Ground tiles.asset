@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a676d093f9273c541b32a99d3a32ded7, type: 3}
+  m_Name: Ground tiles
+  m_EditorClassIdentifier: 
+  walkable: 1
+  tiles:
+  - {fileID: 11400000, guid: 2f1f122c628d5fd4b96cea7a82356695, type: 2}
